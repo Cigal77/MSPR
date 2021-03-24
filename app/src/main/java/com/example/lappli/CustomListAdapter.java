@@ -52,7 +52,7 @@ public class CustomListAdapter  extends BaseAdapter {
 
         Coupon coupon = this.listData.get(position);
         holder.titleView.setText(coupon.getTitle());
-        holder.reductionView.setText("Population: " + coupon.getReduction());
+        holder.reductionView.setText("Réduction: " + coupon.getReduction());
 
         int imageId = this.getMipmapResIdByName(coupon.getImageName());
 
